@@ -6,7 +6,7 @@ function add(a, b) {
   var max = Math.max(aLists.length, bLists.length)
   var flag = 0
   var cLists = []
-  for (var i = 0; i <= max; i++) {
+  for (var i = 0; i < max; i++) {
     var result = (+aLists[i] || 0) + (+bLists[i] || 0) + flag
     flag = 0
     if (result > 9) {
