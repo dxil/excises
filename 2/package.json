@@ -1,0 +1,16 @@
+{
+  "name": "exercise2",
+  "version": "0.0.1",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^11.2.1"
+  }
+}
